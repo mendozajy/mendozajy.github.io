@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<head>
+  <!-- Provide Style Sheets to Make Our Page Look Good-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+  <!-- Add A Title To Our Page-->
+  <title>Welcome to WindSpeed Page</title>	
+
+</head>
+<body>
+  <!-- Code For Our NavBar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Project Home Page</a>
+
+  <!-- Have a Button Show up for the Navigation Menu On Small Screens-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+  <!-- Create a Button For Our Drop Down Menu-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown">
+            Plots
+          </a>
+  <!-- Provide Options For Our Drop Down Menu-->
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="MaxTemp.html">Max Tempature</a>
+            <a class="dropdown-item" href=" Humidity.html">Humidity</a>
+            <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+            <a class="dropdown-item" href="WindSpeed.html">WindSpeed</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Comparison.html">Comparison</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Data.html">Data</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Explaination Displayed as Jumbotron to give the page some color contrast -->
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="display-4">Wind Speed Visualization</h1>
+      <hr class="my-4">
+      <p>The image belows shows wind speed in comparisson to the latitude coordinates of 500 cities. </p>
+    </div>
+    <img src="Resources/assets/images/Fig4.png">
+  </div>
+<!-- Place to Run Jquery Scripts Needed for Page Interaction -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></scripts>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    </body>
+    
+    </html>
+
